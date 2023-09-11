@@ -1,6 +1,6 @@
 import math
 import random
-"""
+
 
 #1
 
@@ -36,9 +36,9 @@ o = input(":")
 if o == "ja":
     print("perfekt")
 
-"""
+
 #3
-"""
+
 print("Dethär är en BMI kalkylator. Låt oss börja med din")
 while True:
     try:
@@ -57,8 +57,7 @@ length = length/100
 length = length*2
 BMI = weight / length
 print ("Din BMI är", BMI)
-"""
-"""
+
 #4
 pi = math.pi
 while True:
@@ -71,9 +70,9 @@ while True:
 r = r*r*pi
 round(r)
 print("Arean på din cirkel", round(r))
-"""
+
 #5
-"""
+
 print("Det här är en miniräknare")
 while True:
     calc_method = input("börja med att skiva in ditt räknesätt (+, -, *, /): ")
@@ -147,12 +146,12 @@ while True:
                 print("invalid input")
         finalnumber1 = number1/number2
         print(round(finalnumber1))
-"""
+
 
 #6
-"""
+
 print (random.randint(1, 6))
-"""
+
 #7
 amount = int(input("skirv in hur många gågner du vill slå din tärning "))
 for i in range(amount):

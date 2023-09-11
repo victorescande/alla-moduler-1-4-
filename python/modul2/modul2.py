@@ -18,7 +18,7 @@ print (y ** x)
 
 
 #3
-"""
+
 x = input("Hej och välkommen vad heter du?: ")
 print("hej " + x,"!")
 lol = input("vad är din favoritfärg? ")
@@ -34,8 +34,7 @@ if o == "ja":
     print("perfekt")
 elif o != "ja":
     print ("fan också")
-"""    
-"""
+
 #4
 tal1 = int(input("tal1:"))
 tal2 = int(input("tal1:"))
@@ -51,14 +50,14 @@ length = length/100
 length = length*2
 BMI = weight / length
 print ("Din BMI är", BMI)
-"""
+
 #6
-"""
+
 print("Dethär är ett program som ska berätta hur många veckor du har levt")
 years = int(input("börja med att skriva in hur många år du är "))
 years = years*52
 print ("du har levt i ungefär", years, "veckor")
-"""
+
 
 #7
 

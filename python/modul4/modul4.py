@@ -75,9 +75,11 @@ print("Arean på din cirkel", round(r))
 
 print("Det här är en miniräknare")
 while True:
-    calc_method = input("börja med att skiva in ditt räknesätt (+, -, *, /): ")
+    calc_method = input("börja med att skiva in ditt räknesätt (+, -, *, /) (eller skirv 'S' för att avsluta): ")
     if calc_method in ("+", "-", "*", "/"):
         pass
+    elif calc_method == "S":
+        break
     else:
         print ("invalid input")
         continue
@@ -146,6 +148,7 @@ while True:
                 print("invalid input")
         finalnumber1 = number1/number2
         print(round(finalnumber1))
+        break
 
 
 #6

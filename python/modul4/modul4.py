@@ -1,8 +1,11 @@
 import math
 import random
-
+import os 
 
 #1
+os.system("cls")
+
+
 
 print("Välkommen till grönalund, nu ska vi kolla om du är tillräckligt lång för att åka")
 
@@ -11,6 +14,8 @@ if length >= 140:
     print("ok du får åka")
 elif length <=140:
     print("du får bara åka barn grejer")
+elif length >=195:
+    print("du får typ inte åka något")
 
 
 #2
@@ -26,8 +31,6 @@ while True:
         print("fel")
 
 
-print(x)
-print(age)
 
 
 
@@ -75,7 +78,7 @@ print("Arean på din cirkel", round(r))
 
 print("Det här är en miniräknare")
 while True:
-    calc_method = input("börja med att skiva in ditt räknesätt (+, -, *, /) (eller skirv 'S' för att avsluta): ")
+    calc_method = input("börja med att skiva in ditt räknesätt (+, -, *, /) (eller skirv 'S' för att avsluta): ").upper()
     if calc_method in ("+", "-", "*", "/"):
         pass
     elif calc_method == "S":
@@ -156,14 +159,14 @@ while True:
 print (random.randint(1, 6))
 
 #7
-amount = int(input("skirv in hur många gågner du vill slå din tärning "))
+while True:
+    try:
+        amount = int(input("skirv in hur många gågner du vill slå din tärning "))
+        break
+    except:
+        print("invalid input")
 for i in range(amount):
 	print (random.randint(1, 6))
 
+
         
-
-
-
-
-
-
